@@ -1,6 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
 Name : Jayamani R
+
 Roll no : 212222100014
+
 Date of experiment : 06-03-2024
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
