@@ -1,11 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
-
-
-
+Name : Jayamani R
+Roll no : 212222100014
+Date of experiment : 06-03-2024
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -15,19 +11,19 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
-4.	 Compile the program and check for the errors 
+4.	Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-8.	 
+
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
@@ -75,33 +71,69 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-## Programs for arithmetic  operations
+### Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+#### Addition  of 8 bit ALP 
+```
+MOV al,34h
 
+MOV bl,64h
 
+ADD al,bl    
 
-## Output  
+hlt
+```
+
+### Output  
  
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+ ![add 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/7c9bb71a-2e39-46e2-b390-82e7975cfc3e)
+
+### Subtraction   of 8 bit numbers  ALP 
+
+```
+MOV al,34h
+
+MOV bl,64h
+
+SUB al,bl    
+
+hlt
+```
+### Output  
+
+![sub 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/97174066-7949-434e-b540-6ee69b0fc74d)
+
+### Multiplication alp 
+```
+MOV al,34h
+
+MOV bl,64h
+
+MUL bl    
+
+hlt
+```
+
+### Output  
+
+![mul 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/410b0dc5-4b96-4b6c-8e7b-e2883dcd6317)
 
 
-## Division alp 
+### Division alp 
+```
+MOV al,34h
 
-## Output  
+MOV bl,64h
+
+DIV bl    
+
+hlt
+```
+### Output  
+
+![div 8 bit ](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/0fd6b62f-3162-48a9-8392-7720537ef908)
 
 
 ## Result :
  
-
-
-
-
-
-
-
-
+Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
